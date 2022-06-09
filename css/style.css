@@ -1,0 +1,155 @@
+
+body {
+    font-family: Roboto;
+    width: 1219px;
+}
+
+.header{
+    background: #007765;
+    height: 84px;
+}
+
+.container20px50px{
+    padding: 20px 55px;
+}
+
+.container128px163px{
+    padding: 128px 163px;
+}
+
+.container145px145px{
+    padding: 56px 145px 180px 145px;
+}
+
+.container50px340px{
+    padding: 50px 340px;
+}
+
+.flex-box {
+    display: flex;
+}
+
+header li,a{
+    list-style-type: none; /*убрать маркировки в списках*/
+    color: white;
+    padding-left: 5px;
+    text-decoration: none; /*убрать подчеркивание ссылок*/
+    font-size: 24px; /*размер шрифта*/
+}
+
+.menu{
+    margin: 0 0 0 auto;
+    display: flex; /*выравнивание в одну линию*/
+    float:right;
+    align-items: center;
+    justify-content: right;
+}
+
+.PiperNetIsHere{
+    background-image: url("../images/image.jpg");
+    height: 403px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 72px;
+    align-items: center;
+}
+.class3{
+    background:#EEEEEE;
+    height: 719px;
+    color:#007765;
+    text-align: center;
+    margin: 0;
+}
+h3.problem{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+}
+.text1{
+    color: black;
+    font-size: 32px;
+    font-weight: regular;
+    text-align: justify; /*выравнивание текста по ширине*/  
+}
+
+.class4{
+    background-image: url("../images/blue.jpg");
+    font-size: 48px;
+    color: white;
+    font-style: italic; /*Определяет начертание шрифта — обычное, курсивное или наклонное*/
+    font-weight: 500; /*Устанавливает насыщенность шрифта*/
+    text-align: center; 
+}
+.class5{
+    background-color:#FFFFFF;
+    ;
+}
+h3.head {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    color:#007765;
+    text-align: center;
+}
+
+.text-logo img {
+    width: 115px;
+    height: 115px;
+    shape-outside: url("../images/PPC\ Logo.svg"); /*обтекание текстом, обязательно указание ширины и высоты картнки*/
+    float: left;
+    padding: 20px;
+}
+.text-logo span{
+    font-size: 32px;
+    font-style:normal;
+    font-weight:400;
+    line-height: 37.5px;
+}
+.class6{
+    background-color:#EEEEEE;
+   
+}
+.team{
+    display: grid;
+    grid-template-columns: 168px 168px 168px; /*количество и ширина колонок*/
+    column-gap: 212px; /*отступ между колонками*/
+    grid-template-rows: 168px 168px;
+    row-gap: 145px; /*отступ между строками*/
+    
+}
+.name{
+    color:#007765;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    font-style: normal;
+    width: 199px;
+    height: 29px;
+    margin-bottom: 0;
+}
+.position{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    font-style: italic;
+    width: 199px;
+    height: 22px;
+    margin: 0;
+    text-align: center;
+}
+.footer{
+    background-color:#333333;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    font-style: normal;
+    text-align: center;
+}
+
+    
